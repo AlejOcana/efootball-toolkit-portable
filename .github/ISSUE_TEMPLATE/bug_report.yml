@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a problem with a release ZIP
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Version from Settings (e.g. 0.1.0) plus ZIP hash check result
+      placeholder: "0.1.0, SHA256 match: yes"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Windows build (run winver), x64
+      placeholder: "Windows 11 23H2 x64"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Run mode
+      options:
+        - Run as administrator
+        - Limited mode (UAC denied)
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: What you did, what you expected, what happened
+      placeholder: "1. Started app as admin while eFootball searched a match..."
+    validations:
+      required: true
+  - type: dropdown
+    id: tab
+    attributes:
+      label: Affected area
+      options:
+        - Monitor
+        - Modes
+        - Servers
+        - Overlay
+        - Rivals
+        - Gamepad
+        - Settings
+        - Install / startup
+        - Firewall rules
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and firewall state
+      description: Paste relevant logs/ lines (redact personal IPs) and the output of netsh ... Select-String "ETK-"
+      render: text
+    validations:
+      required: false
