@@ -1,0 +1,63 @@
+THIRD-PARTY NOTICES — eFootball Toolkit Portable (binary distribution)
+==============================================================================
+This file lists third-party components used by the downloadable binaries. It is
+published here and shipped inside every release ZIP. Each item keeps its own
+license; nothing here relicenses third-party work.
+
+1. WPF-UI (lepoco) 4.3.0
+   UI library. Package ID "WPF-UI" (hyphenated, lepoco).
+   Source: https://github.com/lepoco/wpfui
+   Docs: https://wpfui.lepo.co/
+   License: MIT (see the upstream repository).
+
+2. CommunityToolkit.Mvvm 8.2.2
+   MVVM helpers.
+   Source: https://github.com/CommunityToolkit/dotnet
+   License: MIT (see the upstream repository).
+
+3. Hardcodet.NotifyIcon.Wpf 2.0.1
+   Tray icon support.
+   Source: https://github.com/hardcodet/wpf-notifyicon
+   License: CPOL/CodeProject Open License (see the upstream repository).
+
+4. SharpPcap 6.2.5 + PacketDotNet (transitive dependency)
+   Packet capture API used with Npcap.
+   Source: https://github.com/dotpcap/sharppcap
+   License: MIT (see the upstream repositories).
+
+5. IP2Location LITE database (DB3, IPv4)
+   Local GeoIP database bundled in the ZIP for approximate region lookup.
+   "This product uses the IP2Location LITE database for <a
+   href="https://www.ip2location.com">IP geolocation</a>."
+   Data license: https://lite.ip2location.com/data-license
+   Without the BIN file the app keeps working with its curated table; the
+   IPV6 companion file is ignored by design.
+
+6. WinDivert (reqrypt / basil00), LGPLv3/GPLv2 dual license, unmodified
+   Packet diversion driver used for capture/block sidecars. The DLL/sys files
+   ship UNMODIFIED next to the exe inside the ZIP (required there because the
+   loader call LoadLibrary("WinDivert.dll") ignores CLR probing paths).
+   Check the shipped files' properties for the exact bundled version.
+   Source: https://github.com/basil00/WinDivert
+   FAQ and license terms: https://reqrypt.org/windivert-faq.html
+   and https://github.com/basil00/WinDivert/blob/master/LICENSE
+   Do not rename or rebuild these files without a commercial license where
+   the WinDivert terms require one.
+
+7. PresentMon (GameTechDev) v2.5.1, MIT
+   Real-FPS console sidecar launched by absolute path from tools/.
+   Source: https://github.com/GameTechDev/PresentMon
+   License: https://github.com/GameTechDev/PresentMon/blob/main/LICENSE.txt
+
+8. Npcap — EXTERNAL REQUIREMENT, NEVER BUNDLED
+   Packet capture driver the app needs at runtime. Download it yourself from
+   https://npcap.com/#download and install it on your machine. No Npcap
+   installer is shipped in the ZIP or in this repository (any installer files
+   found elsewhere are reference only, never redistributed).
+
+9. XJBT heritage — BEHAVIOR REFERENCE ONLY
+   The network behavior of this tool was informed by the public example team:
+   https://github.com/SuNingXJBT/efootball-toolkits
+   https://github.com/SuNingXJBT/eFootball_Network_Monitor_Tool
+   https://github.com/SuNingXJBT/eFootball_Block_TCP_Matches
+   No XJBT code or binaries are copied or redistributed here.
