@@ -88,13 +88,6 @@ When the exe folder does not allow writes, runtime state falls back to `%LocalAp
 4. Apply competitive with eFootball-only scope, test servers, flag rivals, check the gamepad.
 5. When done, press Clean `ETK-*`. Rules are temporary, and cleanup also runs on exit.
 
-<details>
-<summary>Old ZIPs and launcher files?</summary>
-
-No launcher script is shipped. Delete `INICIAR.bat` if it comes inside old ZIPs.
-
-</details>
-
 ## Verify the download
 
 Every release ships `EtkPortable-wpf-win64.zip` plus a `.sha256` file. Compare:

@@ -88,13 +88,6 @@ Cuando la carpeta del exe no permite escribir, el estado recurre a `%LocalAppDat
 4. Aplica competitive con ámbito solo eFootball, prueba servidores, marca rivales, revisa el mando.
 5. Al terminar pulsa Limpiar `ETK-*`. Las reglas son temporales y la limpieza también corre al salir.
 
-<details>
-<summary>¿ZIP viejos y ficheros lanzadores?</summary>
-
-No se incluye ningún script lanzador. Borra `INICIAR.bat` si viene dentro de ZIP viejos.
-
-</details>
-
 ## Verificar la descarga
 
 Cada versión incluye `EtkPortable-wpf-win64.zip` más su fichero `.sha256`. Compara:
