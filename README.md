@@ -36,6 +36,28 @@ Independent project, no affiliation with KONAMI. Nominative use of eFootball.
 | **Gamepad** | Live buttons, LT and RT triggers, sticks, polling rate, battery and rumble state (Windows inbox XInput; Xbox works out of the box, PlayStation through DS4Windows). |
 | **Settings** | Launcher that detects the Steam and XboxPC install, starts the game at high priority and shows its current connections. Strictly portable: everything lives next to the exe (`data/`, `config/`, `logs/`), nothing in the registry. |
 
+## Screenshots
+
+What the app looks like:
+
+![Monitor tab waiting for a match, with the live ping chart](docs/screenshots/1.png)
+*Monitor — waiting for a match, with the live ping chart.*
+
+![Modes tab with Normal and Competitive options and the firewall note](docs/screenshots/2.png)
+*Modes — Normal vs Competitive, with the firewall note.*
+
+![Servers tab with ping filter and the measured server list](docs/screenshots/3.png)
+*Servers — ping filter and the measured server list.*
+
+![On-screen overlay settings with transparency options and live preview](docs/screenshots/4.png)
+*On screen — overlay settings with live preview.*
+
+![History tab with the last matches, ping and loss](docs/screenshots/5.png)
+*History — last matches with ping and loss.*
+
+![Match detail window with ping, PC load and network charts](docs/screenshots/6.png)
+*Your match — detail charts for ping, PC load and network.*
+
 ## Requirements
 
 - Windows 10/11 x64.

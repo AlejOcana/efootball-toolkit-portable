@@ -36,6 +36,28 @@ Proyecto independiente, sin afiliación con KONAMI. Uso nominativo de eFootball.
 | **Mando** | Botones en vivo, gatillos LT y RT, sticks, frecuencia de muestreo, batería y estado de vibración (XInput incluido en Windows; Xbox funciona de serie, PlayStation mediante DS4Windows). |
 | **Ajustes** | Lanzador que detecta la instalación de Steam y XboxPC, inicia el juego con prioridad alta y muestra sus conexiones actuales. Portable estricto: todo vive junto al exe (`data/`, `config/`, `logs/`), nada en el registro. |
 
+## Capturas
+
+Cómo se ve la app:
+
+![Pestaña Monitor en espera de partido, con la gráfica de ping en vivo](docs/screenshots/1.png)
+*Monitor — en espera de partido, con la gráfica de ping en vivo.*
+
+![Pestaña Modos con opciones Normal y Competitive y el aviso de firewall](docs/screenshots/2.png)
+*Modos — Normal frente a Competitive, con el aviso de firewall.*
+
+![Pestaña Servidores con filtro por ping y la lista medida](docs/screenshots/3.png)
+*Servidores — filtro por ping y la lista medida.*
+
+![Ajustes del overlay en pantalla con opciones de transparencia y vista previa](docs/screenshots/4.png)
+*En pantalla — ajustes del overlay con vista previa.*
+
+![Pestaña Historial con los últimos partidos, ping y pérdida](docs/screenshots/5.png)
+*Historial — últimos partidos con ping y pérdida.*
+
+![Ventana de detalle con gráficas de ping, carga del PC y red](docs/screenshots/6.png)
+*Tu partido — gráficas de ping, carga del PC y red.*
+
 ## Requisitos
 
 - Windows 10/11 x64.
